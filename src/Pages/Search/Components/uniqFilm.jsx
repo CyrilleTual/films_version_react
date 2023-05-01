@@ -24,11 +24,11 @@ function UniqFilm({film}) {
 
   return (
         <>
-            <h2>{film.original_title}</h2>
+            {film.poster_path && <h2>{film.original_title}</h2>}
             {film.poster_path && 
                 <img className={styles.pic} src={(API_URL_IMG)+(film.poster_path)} alt="" /> 
             }
-            <p>Release : {(new Date(film.release_date).toLocaleDateString())}</p>
+            {film.original_title&&<p>Release : {(new Date(film.release_date).toLocaleDateString())}</p>}
             <p>{film.overview}</p> 
         </>
     
