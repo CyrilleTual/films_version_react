@@ -8,7 +8,7 @@ function UniqFilm({film}) {
 
     let idFilm = film.id
 
-    console.log (idFilm)
+  
 
     function getListCompagnies (id){
        // fetch(`${BASE_URL}/movie/${idFilm}?api_key=${API_KEY}`)
