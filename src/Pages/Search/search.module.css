@@ -1,0 +1,26 @@
+.detail{
+    display: flex;
+   margin: 20px;
+   flex-direction: column;
+    text-align: center;
+}
+
+.wrapper {
+    text-align: left;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.wrapper>ul{
+    width : 50%;
+}
+
+.half{
+    width : 50%;
+}
+
